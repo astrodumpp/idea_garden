@@ -1,7 +1,10 @@
 # Application code
 
-Place future HTML, CSS, and JavaScript files here.
+- main.jsx mounts React and loads styles.
+- App.jsx owns shared state, views, and user actions.
+- storage.js validates and persists the garden in localStorage.
+- storage.test.js checks persistence and connection rules.
+- components/ contains cards, forms, details, dialogs, and the SVG map.
+- index.css defines Tailwind styling and the warm theme.
 
-Start with a small set of files such as `index.html`, `styles.css`, and `app.js` when you begin building the app. Add folders only when the code needs them.
-
-No application code or features are implemented yet.
+See the root README for setup, manual testing, and limitations.

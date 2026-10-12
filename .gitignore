@@ -29,3 +29,6 @@ yarn-error.log*
 # Private local idea data and exports
 /local-data/
 /exports/
+
+# Local implementation and browser-check scratch files
+.sdd/
